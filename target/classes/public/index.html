@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/apiclient.js"></script>
+    <script src="js/app.js"></script>
+</head>
+  <div class ="calculadora" name="calculator">
+    <h3>Cambiopp</h3>
+    <p>Haz algun calculo para ver el resultado.</p>
+	<p>Ingresar datos con comas</P>
+    <input id = "captura" type="textfield" name=\"data\" value="">
+    <br>
+    <input type="submit" value="Calcular" onClick="app.capturarDatos()">
+	<br>
+	<br>
+	<div>
+		Lista: <div id= "Lista" style = "display: inline-block";>	</div>
+		<br>
+		Promedio: <div id= "Promedio" style = "display: inline-block";>	</div>
+		<br>
+		Sumatoria: <div id= "Sumatoria" style = "display: inline-block";>	</div>
+	</div>
+	
+    </div>
+</html>
